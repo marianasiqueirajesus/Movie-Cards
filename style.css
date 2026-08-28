@@ -1,0 +1,17 @@
+
+body
+ {
+ background-color: #270200;
+ font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: rgb(46, 1, 1);
+    text-align: center;
+}
+
+p {
+    font-weight: 100;
+    line-height: 1.6;
+    color: white;
+}
