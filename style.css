@@ -10,12 +10,10 @@ html{
 }
 
 body {  
-    margin: 0;
-    font-family:'Modern Romance', sans-serif;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #fcfbfb;
-    background-color: #200000;
-    line-height: 1.6;
+.cormorant-garamond-<uniquifier> {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>300%;
+  font-style: normal;
+}
      }
