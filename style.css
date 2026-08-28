@@ -20,3 +20,24 @@ body{
 
 
 }
+:root {
+
+    --cor-fundo-escuro: #02ff74;
+    --cor-fundo-medio: #cad622;
+    --cor-fundo-claro: #f0f7f4;
+    --cor-primaria: #00c97a;
+    --cor-primaria-escura: #009958;
+    --cor-secundaria: #ffe135;
+    --cor-texto-claro: #edfaf3;
+    --cor-texto-escuro: #052e1c;
+    --cor-texto-suave: #7db89a;
+    --cor-borda: rgba(0, 201, 122, 0.12);
+
+    --fonte-principal: 'Inter', 'Segoe UI', Arial, sans-serif;
+    --fonte-display: 'Bebas Neue', 'Arial Black', sans-serif;
+
+    --espacamento-secao: 6rem;
+    --raio-borda: 14px;
+    --raio-borda-pequeno: 8px;
+    --largura-maxima: 1140px;
+}
