@@ -145,3 +145,71 @@ ul li a {
     background-color: white;
     color: white;
 }
+
+.secao-escura2{
+    background-color: #000000;
+}
+
+.secao-escura-escura{
+    background-color: #810505;
+}
+
+.card-cine{
+      background-color: white; 
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 230px; 
+}
+
+.card-popcorn{
+      background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 230px;
+}
+
+.card-heart{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 230px;
+  display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.card-ingressos{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 230px;
+  display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.cards{
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+
