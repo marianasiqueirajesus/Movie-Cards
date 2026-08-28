@@ -65,22 +65,21 @@ body{
     padding-top: 80px;
 }
 /* cabeçalho */
-.cinema-header{
-    position: fixed;
-
-    top:0;
-    left:0;
-    width:100%;
-    box-sizing: border-box;
-    z-index: 1000;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff
-    padding 15px 50px;
-    box-shadow: none , 4px 10px rgb( 0, 0, 0, 0.5)
+.cinema-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1c1c1c; 
+  padding: 15px 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
+
 
 .logo img{
     height: 45px;
@@ -99,4 +98,12 @@ body{
 
 .menu a:hover {
     color:rgb( 0, 0, 0, 0.5)
+}
+
+.img{
+    background-image: url("obssesssion.jpeg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
