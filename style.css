@@ -15,3 +15,16 @@ p {
     line-height: 1.6;
     color: white;
 }
+
+.cinema-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 50px
+}
+.logo h1{
+    color:white
+    margin 0 ;
+    font-size: 24px;
+
+}
