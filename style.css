@@ -6,7 +6,7 @@ body
 }
 
 h1 {
-    color: rgb(46, 1, 1);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ p {
 .cinema-header {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(212, 120, 120);
     padding: 20px 50px
 }
 .logo h1{
@@ -28,7 +28,7 @@ p {
     font-size: 24px;
 
 }
-/* Configuração do cabeçalho */
+
 .cinema-header {
   display: flex;
   justify-content: space-between; 
@@ -37,7 +37,7 @@ p {
   padding: 20px 50px;            
 }
 
-/* Estilo da Logo */
+
 .logo h1 {
   color: #ffffff;
   margin: 0;
@@ -48,7 +48,7 @@ p {
   color: #ff0000;                
 }
 
-/* Estilo do Menu de Navegação */
+
 .menu a {
   color: #ffffff;
   text-decoration: none;        
@@ -56,7 +56,47 @@ p {
   transition: color 0.3s;        
 }
 
-/* Efeito ao passar o mouse nos links */
 .menu a:hover {
   color: #ff0000;               
+}
+
+body{
+    margin: 0;
+    padding-top: 80px;
+}
+/* cabeçalho */
+.cinema-header{
+    position: fixed;
+
+    top:0;
+    left:0;
+    width:100%;
+    box-sizing: border-box;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff
+    padding 15px 50px;
+    box-shadow: none , 4px 10px rgb( 0, 0, 0, 0.5)
+}
+
+.logo img{
+    height: 45px;
+    width: auto;
+    display: block;
+}
+
+.menu a {
+    color: #ff0000;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color:rgb( 0, 0, 0, 0.5)
 }
