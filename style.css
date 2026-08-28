@@ -8,8 +8,7 @@ html{
     scroll-behavior: smooth;
 
 }
-
-body {  
+ 
     .xanh-mono-regular {
   font-family: "Xanh Mono", monospace;
   font-weight: 400;
@@ -22,4 +21,4 @@ body {
   font-style: italic;
 }
 
-     }
+     
