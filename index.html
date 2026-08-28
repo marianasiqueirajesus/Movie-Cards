@@ -379,8 +379,71 @@
                 required
                 >
                </div>
-                 </form>
+               <div>
+                <label for="tipo">Categoria do Ingresso</label>
+                <select id="tipo" name="tipo">
+                    <option value="">Selecione...</option>
+                    <option value="sala1">Sala 1: MEIA - Laser</option>
+                    <option value="sala2">Sala 2: INTEIRA - Laser </option>
+                    <option value="sala3">Sala 3: MEIA - Laser/ VIP </option>
+                    <option value="sala4">Sala 4: INTEIRA - Laser/ VIP </option>
+                    </select>
+               </div>
+               <div>
+                <label for="quantidade">Quantidade</label>
+                <input
+                  type="number"
+                  id="quantidade"
+                  name="quantidade"
+                  min="1"
+                  max="6"
+                  value="1"
+                >
+               </div>
+               <!-- div necessidades especiais -->
+                <div>
+                    <label for="mensagem">Necessidades Especiais? (opicional)</label>
+                    <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="4"
+                    placeholder="Acessibilidade, mobilidade reduzida..."
+                    ></textarea>
+                </div>
+                <div>
+                <input type="checkbox" id="termos" name="termos" required>
+                <label for="termos">Concordo com as <a href="#">regras do Cinema Movie Cards</a></label>
+                 </div>
+                 <button type="submit">
+                    
+                    
+                    Solicitar Ingressos
+                    
+
+                 </button>
+
+            </form>
+
         </section>
+           <section id="local info">
+            <div>
+                <!-- div local info -->
+                <h3>Cinema Principal</h3>
+
+                <adress>
+                    <p>📍 Movie Cards </p>
+                    <p>Artegon Marketplace, 5150 International Dr 
+                    <p>Orlando, FL 32819, Estados Unidos</p>
+                </adress>
+            </div>
+           </section>
+           <section id="local-contatos">
+            <div>
+            <p>📧 MCcontacts@gmail.com</p>
+            <p>📲 +1 (03) 999-0000 </p>
+            </div>
+           </section>
+
     </main>
 </body>
 </html>
