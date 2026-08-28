@@ -28,3 +28,35 @@ p {
     font-size: 24px;
 
 }
+/* Configuração do cabeçalho */
+.cinema-header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;           
+  background-color: #141414;     
+  padding: 20px 50px;            
+}
+
+/* Estilo da Logo */
+.logo h1 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 24px;
+}
+
+.logo span {
+  color: #ff0000;                
+}
+
+/* Estilo do Menu de Navegação */
+.menu a {
+  color: #ffffff;
+  text-decoration: none;        
+  margin-left: 20px;             
+  transition: color 0.3s;        
+}
+
+/* Efeito ao passar o mouse nos links */
+.menu a:hover {
+  color: #ff0000;               
+}
