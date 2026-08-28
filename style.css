@@ -255,7 +255,8 @@ header {
     /* Corta as bordas da foto para respeitar o border-radius */
 }
 
-.header-foto {
+.header-foto { 
+    image-rendering: auto;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -524,7 +525,7 @@ select,
 textarea {
     width: 100%;
     padding: 0.75rem 1rem;
-    background-color: rgba(255, 255, 255, 0.07);
+    background-color: rgb(31, 1, 1);
     border: 1px solid var(--cor-borda);
     border-radius: var(--raio-borda-pequeno);
     color: var(--cor-texto-claro);
@@ -577,7 +578,7 @@ textarea {
 }
 
 .local-info {
-    background-color: rgba(255, 255, 255, 0.04);
+    background-color: rgb(36, 6, 6);
     border: 1px solid var(--cor-borda);
     border-radius: var(--raio-borda);
     padding: 1.5rem;
@@ -677,116 +678,3 @@ address p {
     font-size: 0.85rem;
 }
 
-/* ================================================================
-     12. RESPONSIVIDADE — MEDIA QUERIES
-     Adapta o layout para funcionar perfeitamente em Tablets e Celulares.
-  ================================================================ */
-
-/* ---- TABLET (telas de até 768px de largura) ---- */
-@media (max-width: 768px) {
-
-    /* Diminui fontes gigantes para não quebrar a tela */
-    .secao-titulo h2 {
-        font-size: 2.4rem;
-    }
-
-    .header-titulo {
-        font-size: 3.5rem;
-    }
-
-    /* Oculta os links da navbar para simplificar em telas médias */
-    .nav-links {
-        display: none;
-    }
-
-    header {
-        padding: 7rem 1.5rem 4rem;
-    }
-
-    /* No header, empilha texto e imagem verticalmente */
-    .header-content {
-        flex-direction: column;
-        gap: 2.5rem;
-    }
-
-    .header-imagem {
-        width: 100%;
-        max-width: 480px;
-        margin: 0 auto;
-    }
-
-    /* Transforma o grid de seleções em 2 colunas */
-    .grid-selecoes {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    /* Transforma a galeria em 2 colunas */
-    .grid-galeria {
-        grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 200px;
-    }
-
-    /* A foto grande agora ocupa 2 colunas mas apenas 1 linha de altura */
-    .foto-grande {
-        grid-column: span 2;
-        grid-row: span 1;
-    }
-
-    .footer-grid {
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .footer-coluna {
-        width: 45%;
-    }
-
-    /* Inputs que ficavam lado a lado agora ficam empilhados */
-    .form-linha {
-        flex-direction: column;
-    }
-
-    /* Formulário e mapa agora ficam um embaixo do outro */
-    .ingressos-layout {
-        flex-direction: column;
-    }
-}
-
-/* ---- CELULAR (telas de até 480px de largura) ---- */
-@media (max-width: 480px) {
-    .secao {
-        padding: 3rem 0;
-        /* Reduz o respiro das seções para aproveitar espaço */
-    }
-
-    /* Cards de seleções viram 1 única coluna (lista vertical) */
-    .grid-selecoes {
-        grid-template-columns: 1fr;
-    }
-
-    /* Galeria vira 1 única coluna */
-    .grid-galeria {
-        grid-template-columns: 1fr;
-        grid-auto-rows: 200px;
-    }
-
-    /* Todas as fotos agora ocupam 1 espaço padrão */
-    .foto-grande {
-        grid-column: span 1;
-        grid-row: span 1;
-    }
-
-    .footer-coluna {
-        width: 100%;
-    }
-
-    /* Botões do header empilhados para facilitar o clique com o polegar */
-    .header-botoes {
-        flex-direction: column;
-    }
-
-    .formulario {
-        padding: 1.5rem;
-        /* Reduz padding interno do formulário */
-    }
-}
