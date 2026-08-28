@@ -8,36 +8,25 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    margin: 0;
-    font-family: 'Montserrat', sans-serif
-    font-weight  300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #222;
-    background-color: #fff;
-    line-height: 1.6;
 
-
-}
 :root {
 
-    --cor-fundo-escuro: #02ff74;
-    --cor-fundo-medio: #cad622;
+    --cor-fundo-escuro: #200101;
+    --cor-fundo-medio: #410808;
     --cor-fundo-claro: #f0f7f4;
-    --cor-primaria: #00c97a;
-    --cor-primaria-escura: #009958;
-    --cor-secundaria: #ffe135;
+    --cor-primaria: #410808;
+    --cor-primaria-escura: #200101;
+    --cor-secundaria: #000000;
     --cor-texto-claro: #edfaf3;
-    --cor-texto-escuro: #052e1c;
-    --cor-texto-suave: #7db89a;
-    --cor-borda: rgba(0, 201, 122, 0.12);
+    --cor-texto-escuro: #290505;
+    --cor-texto-suave: #612d2d;
+    --cor-borda: rgb(41, 2, 2);
 
     --fonte-principal: 'Inter', 'Segoe UI', Arial, sans-serif;
     --fonte-display: 'Bebas Neue', 'Arial Black', sans-serif;
 
-    --espacamento-secao: 6rem;
-    --raio-borda: 14px;
+    --espacamento-secao: 1rem;
+    --raio-borda: 9px;
     --raio-borda-pequeno: 8px;
     --largura-maxima: 1140px;
 }
