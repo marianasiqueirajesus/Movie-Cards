@@ -20,34 +20,3 @@ body{
 
 
 }
-
-h1{
-    font-weight: 300;
-    letter-spacing: 1px;
-}
-
-.topbar{
-    position: sticky;
-    top: 0;
-    z-index:10;
-    background-color: white;
-    border-bottom: 1px solid rgb(176,176,176);
-
-}
-
-p{
-    font-size: 0.7rem;
-}
-
-.container{
-    width: min(1100px,92%);
-    margin: 0 auto;
-    background: #fff;
-
-}
-
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
