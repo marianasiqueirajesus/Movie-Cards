@@ -143,11 +143,16 @@ ul li a {
 
 .secao-clara1 {
     background-color: white;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .secao-escura2{
     background-color: #000000;
+    display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .secao-escura-escura{
@@ -206,6 +211,12 @@ ul li a {
 
 .cards{
     display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Marvel{
+ display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
