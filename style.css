@@ -245,3 +245,17 @@ ul li a {
   color: #ffffff;
 
 }
+
+.drama{
+     display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
+
+.terror{
+    display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+}
