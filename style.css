@@ -236,8 +236,22 @@ ul li a {
   grid-template-columns: repeat(4, 1fr);
 
 }
+#comedia{
+    
+ display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+  background-color: #000000;
+}
 
-
+#romance{
+     display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+  background-color: #000000;
+}
 
 #Terror{
     display: grid;
