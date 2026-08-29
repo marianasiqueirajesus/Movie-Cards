@@ -220,17 +220,20 @@ ul li a {
 }
 
 .mr{
-    width: 15%;
+    width: 60%;
     border-radius: 10px;
 }
 
 .mr img {
     height: 300px;
+    justify-items: center;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(4, 1fr);
+
 }
 
 .grid{
     display: grid;
-    grid-template-columns: 1fr;
   justify-items: center;
   flex-wrap: wrap;
   grid-template-columns: repeat(4, 1fr);
