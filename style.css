@@ -147,8 +147,8 @@ ul li a {
 }
 
 .secao-escura2{
-    background-color: #000000;
-    
+    background-color: hsl(0, 0%, 0%);
+    color: #ffffff;
   
 }
 
@@ -216,7 +216,7 @@ ul li a {
  display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  color: #ffffff;
+  color: #fffefe;
 }
 
 .mr{
@@ -253,9 +253,16 @@ ul li a {
   color: #ffffff;
 }
 
-.terror{
+#Terror{
     display: grid;
   justify-content: center;
   flex-wrap: wrap;
   color: #ffffff;
+  
 }
+
+.comedia{
+    width: 60%;
+    border-radius: 10px;
+}
+
