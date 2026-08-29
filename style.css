@@ -138,7 +138,7 @@ ul li a {
 
     .secao-escura {
      background-color: black;
-    color: black;
+    color: rgb(253, 253, 253);
 }
 
 .secao-clara1 {
@@ -236,21 +236,21 @@ ul li a {
   grid-template-columns: repeat(4, 1fr);
 
 }
-
-.comedia{
-    
- display: grid;
-  justify-content: center;
-  flex-wrap: wrap;
-  color: #ffffff;
-
+#comedia{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: fit-content;
+    margin: 50px auto;
 }
 
-.drama{
+#romance{
      display: grid;
   justify-content: center;
   flex-wrap: wrap;
   color: #ffffff;
+  background-color: #000000;
+  
 }
 
 #Terror{
@@ -258,11 +258,31 @@ ul li a {
   justify-content: center;
   flex-wrap: wrap;
   color: #ffffff;
-  
+  background-color: #000000;
 }
 
-.comedia{
-    width: 60%;
-    border-radius: 10px;
+.all {
+    width: 200px;
+    text-align: left;
+    color: white;
 }
+
+.all h3 {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+}
+
+.all p {
+    color: white;
+    margin: 3px 0;
+}
+
+.all img {
+    width: 200px;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+}
+
 
